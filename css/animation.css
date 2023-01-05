@@ -1,0 +1,20 @@
+.logo {
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: inherit;
+    animation-direction: alternate-reverse;
+    
+}
+
+@keyframes logo {
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.747) ;
+    }
+    100%{
+        transform: rotate(3600deg);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0) ;
+
+    }
+}
